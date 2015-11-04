@@ -1,0 +1,45 @@
+@font-face{
+	font-family: EdmondSans;
+	src: url(Edmondsans-Medium.otf);
+}
+
+
+
+
+.header{
+	height:50px;
+	background:#F0F0F0;
+	border:1px solid #CCC;
+	position:fixed;
+	top:0px;
+	width:110%;
+}
+
+.fluid-ratio-resize { 
+	max-width: 5184px; /* actual img width */
+	max-height: 3456px;
+	*height: 3456px; /* actual img height - IE7 */
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.fluid-ratio-resize:after {
+	content: " ";
+	display: block; 
+	width: 100%; 
+	padding-top: 60%; /* slope */ /* start height */
+}
+
+p.front-text{
+	font-family: EdmondSans;
+	font-size: 48px;
+	position:absolute;
+	width:100%;
+	height:50%;
+	top:0;
+	left:0;
+	vertical-align: center;
+	text-align: center;
+	
+
+}
